@@ -4,9 +4,7 @@ const PORT = 3000;
 
 
 app.get('/',(req,res)=>{
-    res.json({
-        msg:"Welcome to Invoice building app"
-    })
+    res.send('Hello World!!')
 })
 
 app.listen(PORT,()=>{
